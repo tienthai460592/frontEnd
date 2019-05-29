@@ -1,0 +1,24 @@
+a:link{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+hr{
+    width: 200px;
+    float: right;
+    margin: 50px;
+}
+.div1{
+    float: right;
+
+}
