@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ADELE</title>
+    <link rel="stylesheet" href="../static/OneArtistPageStyle.css" type="text/css">
+</head>
+
+<body>
+<div class="topnav">
+    <a href="/frontEnd/templates/HomePage.html?_ijt=ertg6hkv2bsvlvh668voii186g">Home</a>
+    <a href="/frontEnd/templates/BrowsingPage.html?_ijt=1fkmkoqpu447nnkm33tj4r251s">All songs</a>
+    <a href="/frontEnd/templates/GenrePage.html?_ijt=buf3q34qfm84ft0pr8v6i2ba71">Genre</a>
+    <a class="active" href="/frontEnd/templates/ArtistsPage.html?_ijt=9t0ucir9ap1tncliocrupou1la#about">Artist</a>
+    <a href="#about">Album</a>
+    <a href="#about">Single</a>
+    <div class="search-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><img src="../static/searchtool.png" width="18px"></button>
+        </form>
+    </div>
+</div>
+
+
+<div class="infoArtist">
+    <span class="info"><img src="../static/ade.jpg" width="230px"></span>
+    <span class="info">
+    <p>
+        <h1>Adele</h1>
+        Other name: none<br>
+        Hometown: Tottenham, London<br>
+        Born: 1988 <br>
+        Active since: 2006<br>
+        Labels:XL, Columbia <br>
+        Genre: Pop, souls
+    </p>
+
+</span>
+</div>
+
+<div class="albums" style="float: left">
+    <h2>ALBUM</h2>
+    <img src="../static/album1.jpg" width="200px" height="200px" style="padding-right: 20px">
+    <img src="../static/album2.jpg" width="200px" height="200px" style="padding-right: 20px">
+    <img src="../static/album3.jpg" width="200px" height="200px" style="padding-right: 20px">
+    <img src="../static/album1.jpg" width="200px" height="200px" style="padding-right: 20px">
+    <img src="../static/album2.jpg" width="200px" height="200px" style="padding-right: 20px">
+    <img src="../static/album3.jpg" width="200px" height="200px">
+</div>
+
+<div class="table">
+    <h2>SINGLE</h2>
+    <table style="width:100%">
+        <tr>
+            <td>Song 1</td>
+            <td>Country</td>
+            <td>4:29</td>
+        </tr>
+        <tr>
+            <td>Song 2</td>
+            <td>Country</td>
+            <td>4:00</td>
+        </tr>
+        <tr>
+            <td>Song 3</td>
+            <td>Pop</td>
+            <td>3:52</td>
+        </tr>
+        <tr>
+            <td>Song 4</td>
+            <td>R&B</td>
+            <td>3:00</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
