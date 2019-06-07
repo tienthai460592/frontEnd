@@ -59,23 +59,5 @@ header{
     color: black;
 }
 
-.vl {
-    border-left: 1px solid black;
-    height: 1000px;
-    position: relative;
-    left: 150px;
-    top: 100px;
-}
-.genreList{
-    position: absolute;
-    top: 150px;
-    left: 1px;
-
-}
-
-li{
-    margin: 20px 0;
-    font-size: 20px;
-}
 
 
