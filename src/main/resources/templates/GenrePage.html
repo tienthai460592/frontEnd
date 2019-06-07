@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Genre</title>
-
+    <link rel="stylesheet" href="../static/GenrePageStyle.css">
 
 </head>
 <body>
+<header>GENRE</header>
+
+<div th:fragment="fixedBanner"
+     class="topnav">
+    <a href="/frontEnd/templates/HomePage.html?_ijt=ertg6hkv2bsvlvh668voii186g">Home</a>
+    <a href="#home">All songs</a>
+    <a  class="active"  href="#news">Genre</a>
+    <a href="/frontEnd/templates/ArtistsPage.html?_ijt=9t0ucir9ap1tncliocrupou1la#about">Artist</a>
+    <a href="#about">Album</a>
+    <a href="#about">Single</a>
+    <div class="search-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><img src="../static/searchtool.png" width="18px"></button>
+        </form>
+    </div>
+</div>
+
+<div class="vl"></div>
+<div class="genreList">
+    <ul style="list-style-type:none;">
+    <li>Afro</li>
+    <li>Blues</li>
+    <li>Comedy</li>
+    <li>Country</li>
+    <li>Electronic</li>
+    <li>Folk</li>
+    <li>Hip hop</li>
+    <li>Jazz</li>
+    <li>Latin</li>
+    <li>Pop</li>
+    <li>R&B</li>
+    <li>Rock</li>
+</ul>  </div>
+
+<div class="sidenav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#clients">Clients</a>
+    <a href="#contact">Contact</a>
+</div>
+
 
 </body>
 </html>

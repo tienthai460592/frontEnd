@@ -3,45 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Music Library</title>
-    <link rel="stylesheet" href="HomePageStyle.css">
+    <link rel="stylesheet" type="text/css" href="../static/HomePageStyle.css">
 </head>
 
 <body>
-<header>MUSICLIBRARY</header>
-<table class="browseSection">
+<h1>MUSICLIBRARY</h1>
 
-    <th>
-        <img src="searchtool.png" style="width:15px ">
-        <a href="/frontEnd/templates/BrowsingPage.html?_ijt=b0gqts056s2di5mmsc29rhhi3d">
-            Browse
-        </a>
-
-    </th>
-    <th>What's new</th>
-
-</table>
-<p class="firstPic"><img src="photo1.jpeg" style="width:1200px;height:600px;"/></p>
-
-
-<div class="secondPic">
-    <img src="picture2.jpeg"
-         width="600px"/>
+<div class="topnav">
+    <a class="browse" href="/frontEnd/templates/BrowsingPage.html?_ijt=1fkmkoqpu447nnkm33tj4r251s">Browse</a>
+    <div class="search-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><img src="../static/searchtool.png" width="18px"></button>
+        </form>
+    </div>
+    <a class="user" href="/frontEnd/templates/UserPage.html?_ijt=52o9rvsf2q0olv2ooheekqcnaj"><img src="../static/account.png" width="30px" ></a>
 </div>
 
-<div style="float: right; margin: 10px">
-    <img src="chord.jpg" width="600px">
+<div class="pic1"><img src="../static/photo1.jpeg" width="1200px" height="600px"/></div>
+<div class="secondPic">
+    <img src="../static/picture2.jpeg"
+         width="600px"/>
+    <button class="button button1"><a href="/frontEnd/templates/ArtistsPage.html?_ijt=9t0ucir9ap1tncliocrupou1la#about">Artist</a></button>
+</div>
+
+<div class="thirdPic ">
+    <img src="../static/chord.jpg" width="600px">
 </div>
 <div style="float: right; text-align: left; line-height: 6px; margin-right: 150px; margin-top: 100px">
 
-        <p style="font-size: 30px; font-style: oblique">Customize your</p>
-        <p style="font-style: oblique; font-size: 30px"> collection</p>
-        <p style="font-size: 18px; font-style: normal">Keep your favourite song organized</p>
-        <p style="font-style: normal; font-size: 18px">in a fun way</p>
-        <br>
-        <h3><a href="http://localhost:63342/frontEnd/templates/BrowsingPage.html?_ijt=b0gqts056s2di5mmsc29rhhi3d"
-               target="blank_"> Start browsing</a></h3>
+    <p style="font-size: 30px; font-style: oblique">Customize your</p>
+    <p style="font-style: oblique; font-size: 30px"> collection</p>
+    <p style="font-size: 18px; font-style: normal">Keep your favourite song organized</p>
+    <p style="font-style: normal; font-size: 18px">in a fun way</p>
+    <br>
+    <h3><a href="http://localhost:63342/frontEnd/templates/BrowsingPage.html?_ijt=1fkmkoqpu447nnkm33tj4r251s"> Start browsing</a></h3>
 
 </div>
+<br>
 
 
 </body>

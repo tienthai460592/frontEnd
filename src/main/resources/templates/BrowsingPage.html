@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Browse</title>
-    <link rel="stylesheet" href="BrowsePageStyle.css">
+    <link rel="stylesheet" type="text/css" href="../static/BrowsePageStyle.css">
 
 </head>
 <body>
-<div class="div1">
-    <div> <img src="searchtool.png" style="width: 20px; margin: 10px"></div>
-    <hr>
+<header>
+    SONGS
+</header>
 
+
+<div class="topnav">
+    <a href="/frontEnd/templates/HomePage.html?_ijt=ertg6hkv2bsvlvh668voii186g">Home</a>
+    <a class="active" href="#home">All songs</a>
+    <a href="http://localhost:63342/frontEnd/templates/GenrePage.html?_ijt=59n6h5d2p72sfjgovouncnr238">Genre</a>
+    <a href="/frontEnd/templates/ArtistsPage.html?_ijt=9t0ucir9ap1tncliocrupou1la#about">Artist</a>
+    <a href="#about">Album</a>
+    <a href="#about">Single</a>
+    <div class="search-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><img src="../static/searchtool.png" width="18px"></button>
+        </form>
+    </div>
 </div>
+
+
+<div class="table">
+    <table style="width:100%">
+        <tr>
+            <td>Song 1</td>
+            <td>Country</td>
+            <td>4:29</td>
+        </tr>
+        <tr>
+            <td>Song 2</td>
+            <td>Country</td>
+            <td>4:00</td>
+        </tr>
+        <tr>
+            <td>Song 3</td>
+            <td>Pop</td>
+            <td>3:52</td>
+        </tr>
+        <tr>
+            <td>Song 4</td>
+            <td>R&B</td>
+            <td>3:00</td>
+        </tr>
+    </table>
+</div>
+
+
 
 
 
